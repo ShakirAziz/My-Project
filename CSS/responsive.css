@@ -1,0 +1,91 @@
+@media screen and (max-width: 1084px) {
+  .navbar li {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 658px) {
+  .button3 {
+    display: none;
+  }
+}
+
+/* Section 2 */
+
+/* heading responsive */
+
+@media screen and (max-width: 1187px) {
+  .heading h1 {
+    width: 67%;
+    font-size: 96px;
+  }
+
+  .p2 p {
+    width: 71%;
+    font-size: 23px;
+  }
+
+  /* section3 responsive */
+
+  .section3 {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  .section03 {
+    width: 95%;
+  }
+
+  .section003 {
+    width: 100%;
+  }
+
+  .heading2 h2 {
+    width: 100%;
+  }
+
+  .p3 p {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 943px) {
+  .heading h1 {
+    width: 66%;
+    font-size: 75px;
+  }
+}
+
+@media screen and (max-width: 755px) {
+  .heading h1 {
+    width: 65%;
+    font-size: 59px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .heading h1 {
+    width: 63%;
+    font-size: 46px;
+  }
+
+  .btn1 {
+    width: 95%;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+}
+
+@media screen and (max-width: 482px) {
+  .heading h1 {
+    width: 100%;
+    font-size: 56px;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .heading h1 {
+    width: 60%;
+    font-size: 28px;
+  }
+}

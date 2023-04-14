@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Section 3 */
+
+.section3 {
+  width: 100%;
+  padding: 165px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px;
+}
+
+.section03 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+/* heading */
+.heading2 {
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+  font-size: 40px;
+  font-weight: 900;
+  color: #1b1772;
+}
+
+.heading2 h2 {
+  width: 50%;
+}
+
+/* paragraph */
+
+.p3 {
+  display: flex;
+  justify-content: center;
+  color: #1b1772;
+  display: flex;
+  text-transform: uppercase;
+}
+
+.p3 p {
+  width: 50%;
+}
+
+.btn2 {
+  display: flex;
+  justify-content: center;
+}
+
+.btn2 button {
+  background-color: white;
+  color: #a4fb7b;
+  border: 3px solid #a4fb7b;
+  padding: 15px;
+  flex-grow: 0.2;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.section003 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Section 3.1 */
+.section301 {
+  padding: 0 10px;
+  font-size: 23px;
+  text-transform: lowercase;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 50px;
+}
+
+.h03 {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 900;
+  color: #242573;
+}
+
+.h03 h2 {
+  width: 50%;
+}
+
+
+@media screen and (max-width: 671px) {
+  .h03 {
+    font-size: 30px;
+    font-weight: 900;
+    color: #242573;
+  }
+}
+
+.p02 {
+  color: #a4fb7b;
+}
+
+.p03 {
+  text-transform: uppercase;
+}
+
+.p04 {
+  text-transform: uppercase;
+}
+
+/* image */
+
+.section302 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  row-gap: 20px;
+  flex-wrap: wrap;
+}
+
+.rectangle1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  height: 300px;
+  width: 140px;
+  padding: 32px;
+  background: #ffffff;
+  box-shadow: 0px 4px 54px -10px rgba(0, 0, 0, 0.25);
+  border-radius: 140px;
+}
+
+.image4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  background-color: #a4fb7b;
+}
+
+.p4 {
+  font-size: 13px;
+  font-weight: 700;
+  color: #a4fb7b;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.p004 {
+  color: #1b1772;
+  text-transform: capitalize;
+  font-size: 15px;
+  text-align: center;
+}
