@@ -24,10 +24,10 @@
 /* section 5 */
 .container002 {
   margin-top: 60px;
-  padding: 100px 0;
+  padding: 100px 10px;
   background-color: #242573;
   color: #a4fb7b;
-  font-size: 18px;
+  font-size: 23px;
   font-weight: 700;
   text-transform: uppercase;
   display: flex;
@@ -35,6 +35,7 @@
   row-gap: 40px;
   justify-content: center;
   align-items: flex-start;
+  box-sizing: border-box;
 }
 
 .hd003 {
@@ -42,7 +43,6 @@
   font-weight: 700;
   color: #a4fb7b;
   text-transform: capitalize;
-  margin: 0px 30px;
 }
 
 .circle1 {
@@ -68,7 +68,6 @@
 
 .container003 {
   display: flex;
-  flex-wrap: wrap;
   column-gap: 21px;
   row-gap: 21px;
   text-transform: capitalize;
@@ -79,17 +78,14 @@
   column-gap: 18px;
   justify-content: center;
   align-items: center;
-  padding: 0px 30px;
 }
 .outer_crc1 {
   display: flex;
   column-gap: 18px;
   justify-content: center;
   align-items: center;
-  padding: 0px 30px;
 }
 
 .pg3 {
-  margin: 0px 30px;
   text-transform: capitalize;
 }
